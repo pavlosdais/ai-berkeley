@@ -1,0 +1,4 @@
+# This is the solution file for test_cases/q1/correctSentence3.test.
+# The result of evaluating the test must equal the below when cast to a string.
+result: "((PacmanAlive[1] <=> ((PacmanAlive[0] & ~PacmanKilled[0]) | (~PacmanAlive[0] & PacmanBorn[0]))) & ~(PacmanAlive[0] & PacmanBorn[0]) & PacmanBorn[0])"
+result2: "((PacmanAlive_1 <=> ((PacmanAlive_0 & ~PacmanKilled_0) | (~PacmanAlive_0 & PacmanBorn_0))) & ~(PacmanAlive_0 & PacmanBorn_0) & PacmanBorn_0)"
